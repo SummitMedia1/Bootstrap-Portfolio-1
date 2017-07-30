@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral|Roboto:400,600,800|Alex+Brush');
+
+	<style type="text/css">
+		
+		.navbar-nav li {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.nav-pills li {
+			padding: 5px;
+		}
+
+		.navbar-brand {
+			text-align: center;
+			border-radius: 6px;
+			font-weight: 500;
+			font-size: 36px;
+			padding: 20px 20px 40px 20px;
+			left: 80px important!;
+		}
+
+		.navbar-default {
+			height: 60px;
+			clear: both;
+		}
+
+	@media (max-width: 768px) {
+
+    	.navbar-collapse.collapse {
+        	display: none !important;
+    	}
+		
+	}
+
+	@media (min-width: 768px) {
+		.navbar>.container-fluid .navbar-brand {
+    		margin-left: 80px;
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+
+   		.navbar-brand, .navbar-default { 
+      		font-size: 20px;
+    	}
+	
+	}
+	@media only screen and (max-width: 768px) {
+
+   		#connect, #main .navbar-brand { 
+      		margin-left: 0 !important;
+    	}
+	}
+	
+		.divimage-overlay {
+			padding: 15px;
+			width: 260px;
+			background-color: #0077b5;
+			border-top: 3px solid #000000;
+			border-bottom: 3px solid #000000;
+			color: snow;
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			font-size: 16px;
+			text-align: center;
+			position: relative;
+			top:-140px;
+			clear: left;
+		}
+
+		.divimage-overlay:hover {
+			background-color: #ffffff;
+			color: #0077b5;
+		}
+
+		.full-width-div {
+   			position: relative;
+   			padding: 30px;
+    		width: 100%;
+    		left: 0;
+    		bottom: 0;
+    		background-color: #F8F8F8;
+    		border-top: 1.5px solid #E7E7E7;
+    		text-align: center;
+		}
+
+	body {
+		font-size: 15px;
+	}
